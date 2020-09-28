@@ -1,0 +1,310 @@
+/* HOME PAGE */
+
+.my-nav {
+    background-color: #ADEFD1;
+    box-shadow: none;
+    color: #00203F;
+}
+
+.my-brand-logo {
+    font-family: 'Salsa', cursive !important;
+    color: #00203F;
+    font-size: 18px!important;
+}
+
+.my-nav a {
+    font-family: 'Scada', sans-serif;
+    font-weight: bold;
+    color: #00203F;
+}
+
+.material-icons {
+    color: #00203F !important;
+}
+
+.my-home {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../images/home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my-home-container {
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-home-container .aes {
+    font-size: 33px;
+    text-align: center;
+}
+
+.my-home-container span {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* MY COMPANY PAGE */
+
+.my-company {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #00203F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.my-company-cp .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.my-company-cp .container span {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.my-company-cp-content {
+    font-size: 40px!important;
+    font-family: 'Salsa', cursive !important;
+}
+
+.my-company-cp .director-avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    margin: 25px;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-icons span {
+    font-size: 12px!important;
+}
+
+.my-orange {
+    color: #DA8F1F!important;
+}
+
+.social-media-icons img {
+    width: 20px!important;
+    height: 20px!important;
+    margin-top: -10px;
+    border-radius: 100%!important;
+}
+
+.my-company-cp .container .row {
+    margin: 0;
+}
+
+
+/* MY SERVICES PAGE */
+
+.my-services {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #00203F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.my-services-solar {
+    width: 80%;
+    margin: auto;
+}
+
+.my-services-solar .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-services-con-solar {
+    font-size: 30px;
+    font-family: 'Salsa', cursive !important;
+    text-align: center;
+}
+
+.my-services-con-solar-p {
+    text-align: center;
+}
+
+.my-services-box-container {
+    margin-top: 20px;
+}
+
+.my-services-box-container-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.my-services-box-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.learn-more {
+    color: white;
+    background-color: #DA8F1F;
+    padding: 1.5px;
+    border-radius: 5px;
+}
+
+
+/* FOOTER */
+
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #234669;
+    color: #ADEFD1!important;
+    text-align: center;
+}
+
+
+/* CONTACTS PAGE */
+
+.my-contacts {
+    font-family: 'Scada', sans-serif;
+    width: 100%;
+    min-height: 90vh;
+    background-color: #00203F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-list {
+    color: #DA8F1F;
+    font-size: 20px;
+}
+
+.material-icons {
+    color: #ADEFD1;
+}
+
+.my-email-icon i {
+    color: #ADEFD1!important;
+}
+
+.my-input-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#name,
+#email,
+#message {
+    color: #FAFBFC;
+}
+
+.my-contacts-input {
+    border-radius: 5px;
+    background-color: #234669;
+    color: #ADEFD1;
+    font-size: 30px;
+}
+
+.my-contacts-input .input-field {
+    border-radius: 5px;
+    background-color: #00203F;
+}
+
+.waves-effect {
+    justify-content: center;
+    background-color: #DA8F1F;
+    color: #FAFBFC;
+}
+
+.material-icons {
+    width: 75px;
+    height: 75px;
+}
+
+@media (min-width: 992px) {
+    .my-brand-logo {
+        font-family: 'Salsa', cursive !important;
+        color: #00203F;
+        font-size: 30px!important;
+    }
+    .my-home-container .aes {
+        font-size: 60px;
+        text-align: left;
+    }
+    .my-home-container span {
+        font-size: 30px;
+        text-align: left;
+    }
+    .my-company-cp .container span {
+        font-size: 20px;
+        font-family: 'Scada', sans-serif;
+        color: #ADEFD1;
+    }
+    .my-company-cp-content {
+        font-size: 60px;
+        font-family: 'Salsa', cursive !important;
+        color: white!important;
+    }
+    .my-company-cp img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 100px;
+    }
+    .my-services-box-container-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    .my-services-con-solar {
+        font-size: 40px;
+        font-family: 'Salsa', cursive !important;
+        text-align: center;
+    }
+    .contact-list {
+        color: #DA8F1F;
+        font-size: 30px;
+    }
+    .my-contacts {
+        font-family: 'Scada', sans-serif;
+        width: 100%;
+        min-height: 90vh;
+        background-color: #00203F;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <nav class="my-nav">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo my-brand-logo">SOLAR Enerhiya</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="company.html">COMPANY</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><i class="material-icons">search</i></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="contacts.html">CONTACTS</a></li>
+    </ul>
+
+    <div class="my-contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <section>
+                        <ul class="contact-list">
+                            <li class="my-email-icon"><i class="medium material-icons">email</i>mail@test.com</li>
+                            <li class="my-email-icon"><i class="medium material-icons">phone_iphone</i>+63912-3456-789</li>
+                            <li class="my-email-icon"><i class="medium material-icons">place</i>Quezon City, Philippines</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="my-contacts-input col s12 m6">
+                    <section class="my-input-section">
+                        <form>
+                            <div class="input-field col s12">
+                                <input id="name" type="text" data-length="30">
+                                <label for="input_text">NAME</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="email" data-length="20">
+                                <label for="input_text">EMAIL</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="message" type="text" class="nem materialize-textarea validate" data-length="120"></textarea>
+                                <label for="message">MESSAGE</label>
+                            </div>
+                            <div class="submit">
+                                <a class="waves-effect waves-light btn-small">SUBMIT</a>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                SOLAR Enerhiya © 2020 Privacy policy. Terms of use
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('#name, #email, #message').characterCounter();
+        });
+    </script>
+</body>
+
+</html>
